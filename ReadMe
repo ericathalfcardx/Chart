@@ -1,0 +1,25 @@
+# INSTALLING THE "WAGMI CHART" PACKAGE
+
+1. npm install react-native-wagmi-charts
+
+# Install the chart libraries:
+
+2. npm install react-native-reanimated react-native-gesture-handler react-native-haptic-feedback
+
+# Using the libraries:
+
+the libraries has two chart types (i.e. Line & Candlestick), but we'll use the "line chart"
+
+NOTE: In order to render the "line chart", you need to use the:
+
+# a. LineChart.Provider, LineChart & LineChart.Path components
+
+Also, in the graph.js file, I used the <LineChart.CursorLine> component
+for the interactiveness, as you move the cursor along the chart.
+Just like the UI design.
+
+# follow the graph.js file....
+
+# Read more from this link:
+
+https://bestofreactjs.com/repo/coinjar-react-native-wagmi-charts#linechartpricetext
